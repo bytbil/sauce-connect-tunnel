@@ -1,5 +1,13 @@
 # sauce-connect-tunnel
+[![Build Status](https://travis-ci.org/bytbil/sauce-connect-tunnel.svg)](https://travis-ci.org/bytbil/sauce-connect-tunnel)
+
 A Node.js wrapper around the Saucelabs connect proxy binaries.
+
+## Install
+
+```
+npm install --save-dev sauce-connect-tunnel
+```
 
 ## Usage
 
