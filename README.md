@@ -1,18 +1,5 @@
 #sauce-tunnel
-[![NPM version](https://badge.fury.io/js/sauce-tunnel.png)](http://badge.fury.io/js/sauce-tunnel)
-[![Build Status](https://travis-ci.org/jmreidy/sauce-tunnel.svg)](https://travis-ci.org/jmreidy/sauce-tunnel)
-
-A Node.js wrapper around the Saucelabs tunnel jar.
-
-This code is extracted from
-[grunt-saucelabs](https://github.com/axemclion/grunt-saucelabs) by
-[axemclion](https://github.com/axemclion), with the grunt-specific parts
-removed.
-
-It was extracted into its own module to avoid duplication between
-grunt-saucelabs,
-[grunt-mocha-webdriver](https://github.com/grunt-mocha-webdriver), and any
-future Node module that may need it.
+A Node.js wrapper around the Saucelabs connect proxy binaries.
 
 ## Usage
 Before starting the tunnel, initialize it first
@@ -62,63 +49,5 @@ tunnel.start(function(status){
 
 ## CHANGELOG
 
-### v1.1
-- Remove all the logic surrounding tracking open tunnels, killing existing
-tunnels, and tunnel timeouts. (#3)
-
-### v2.0
-- Move to new release of Sauce connect (version 4).
-
-### v2.0.1
-- Fixing bug where sauce connect was not properly exiting
-
-### v2.0.2
-- Fixing issue with flaky tunnel creation recognition on Win
-
-### v2.0.3
-- Updating Sauce Tunnel 4 binaries (@saadtazi)
-
-### v2.0.4
-- Updating to Sauce Connect 4.1
-
-### v2.0.5
-- Switch to using `chalk` instead of duck punching String.
-
-### v2.0.6
-- Update to SC 4.2
-
-### v2.1.0
-- Update to SC 4.3
-
-### v2.1.1
-- Update to SC 4.3.5
-- Expose kill method for immediate kill of process
-
-### v2.2.0
-- Update binaries to SC 4.3.6
-- Make tunneled an optional param that defaults to true
-- Fix bug in delete tunnel
-
-### v2.2.1
-- Add 32bit binary for Linux
-
-### v2.2.2
-- Fix race condition from delete tunnel fix in 2.2.0
-
-### v2.2.3
-- Update SC binaries to 4.3.7
-- Update Chalk to 1.0
-
-### v2.2.4
-- Update SC binaries to 4.3.9
-
-### v2.3.0
-- Update SC binaries to 4.3.12
-
-### v2.4.0
-- Update SC binaries to 4.3.13
-- Update Node dependencies to latest
-
-### v2.5.0
-- Update SC binaries to 4.3.16
-- Update Node dependencies to latest
+### v1.0.0
+- Added latest sauce connect proxy binaries (v4.4.2)
