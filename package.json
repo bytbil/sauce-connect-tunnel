@@ -1,7 +1,7 @@
 {
-  "name": "sauce-tunnel",
-  "version": "2.5.0",
-  "description": "A wrapper around the Sauce Labs tunnel jar",
+  "name": "sauce-connect-tunnel",
+  "version": "0.1.0",
+  "description": "A node.js wrapper around the Sauce Connect Proxy binary",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/sanity"
@@ -14,8 +14,7 @@
     "Saucelabs"
   ],
   "authors": [
-    "Parashuram <code@nparashuram.com>",
-    "Justin Reidy <jmreidy@rzrsharp.net>"
+    "Marc Neander <marc.neander@bytbil.com>"
   ],
   "license": "MIT",
   "dependencies": {
