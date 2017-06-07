@@ -1,6 +1,6 @@
 {
   "name": "sauce-connect-tunnel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A node.js wrapper around the Sauce Connect Proxy binary",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
-    "request": "^2.72.0",
+    "request": "^2.81.0",
     "split": "^1.0.0"
   }
 }
