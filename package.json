@@ -1,6 +1,6 @@
 {
   "name": "sauce-connect-tunnel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A node.js wrapper around the Sauce Connect Proxy binary",
   "main": "index.js",
   "scripts": {

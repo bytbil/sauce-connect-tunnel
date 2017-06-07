@@ -98,7 +98,7 @@ SauceTunnel.prototype.openTunnel = function(callback) {
             }
         }
 
-        var match = data.match(/Tunnel ID\: ([a-z0-9]{32})/);
+        var match = data.match(/Provisioned tunnel\:([a-z0-9]{32})/);
 
         if (match) {
             me.id = match[1];
